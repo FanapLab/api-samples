@@ -10,7 +10,7 @@
 
  - пакет для python AGI и вебсокетов
 
-        sudo pip3 install pyst2 websocket
+        sudo pip3 install pyst2 websocket-client
 
 ### Запускаем сервер распознавания
 
@@ -35,4 +35,7 @@ same = n,Hangup()
 ```
 
 ### Звоним и проверяем работу
+
+Для написания чатбота, сохранения результатов в базу, и так далее,
+изменяем код eagi-ru.py.
 
