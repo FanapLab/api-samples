@@ -18,12 +18,12 @@ docker run -d -p 2700:2700 alphacep/kaldi-ru:latest
 
 ### Проверяем, что можем запустить EAGI скрипт 
 
-Код скрипта находится в файле https://github.com/alphacep/api-samples/blob/master/asterisk/eagi-ru.py из этого пакета:
+Код скрипта находится в файле [eagi-ru.py](https://github.com/alphacep/api-samples/blob/master/asterisk/eagi-ru.py) из этого пакета:
 
 ```
 cd /home/user
 git clone https://github.com/alphacep/api-samples
-cd asterisk
+cd api-samples/asterisk
 python3 eagi-ru.py
 ARGS: ['eagi-ru.py']
 ^C
