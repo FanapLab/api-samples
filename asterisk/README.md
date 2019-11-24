@@ -12,9 +12,11 @@
 
         sudo pip3 install pyst2 websocket-client
 
-### Start recognition server
+### Start recognition server with docker
 
+```
 docker run -d -p 2700:2700 alphacep/kaldi-en:latest
+```
 
 alternatively, you can run https://github.com/alphacep/kaldi-websocket-python with your models.
 
